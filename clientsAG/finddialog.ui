@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FindDialog</class>
+ <widget class="QDialog" name="FindDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>335</width>
+    <height>145</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>335</width>
+    <height>145</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>335</width>
+    <height>145</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Поиск</string>
+  </property>
+  <widget class="QLabel" name="labelValue">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>23</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Значение:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineValue">
+   <property name="geometry">
+    <rect>
+     <x>75</x>
+     <y>22</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="parameterBox">
+   <property name="geometry">
+    <rect>
+     <x>74</x>
+     <y>62</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>62</y>
+     <width>81</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelParameter">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>62</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Параметр:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOk">
+   <property name="geometry">
+    <rect>
+     <x>73</x>
+     <y>102</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ок</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCancel">
+   <property name="geometry">
+    <rect>
+     <x>206</x>
+     <y>102</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

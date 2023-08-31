@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES `ag_clients_base`.* TO 'ag_user_2'@'localhost';
